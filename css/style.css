@@ -75,6 +75,7 @@ a{
     color: black;
     text-decoration: none;
 }
+
 #buttonCta{
     background:#1F7CFF;  
     border-radius: 50px;
@@ -94,7 +95,7 @@ a{
     width: 100%;
 }
 .headerLogo{
-    text-align: center;
+    text-align: right;
 }
 #clients{
     margin-top: 50px;
@@ -117,7 +118,6 @@ h2.red{
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;    
 }
@@ -128,10 +128,13 @@ h1.black{
     font-size: 36px;
     font-weight: 700;
     line-height: 54px;
-    text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin-top: 0px;
+}
+
+.textCenter{
+    text-align: center;
 }
 
 #services p{
@@ -144,11 +147,61 @@ h1.black{
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
-.textCenter{
+#services .textCenter h3{
     text-align: center;
     font-family: Poppins;
     font-size: 15px;
     line-height: 30px;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+}
+
+#services .textCenter p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+#contactImg{
+    width: 100%;
+}
+#contactForm{
+    margin-left: 75px;
+    text-align: left;
+}
+#contact{
+    margin-top: 100px;
+}
+
+#contactForm input{
+    background: #F5F6FB;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: 0;
+    width: 70%;
+    padding: 10px 25px 10px 25px;
+}
+
+#contactForm button{
+    background: #1F7CFF;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border-radius: 50px;
+    border: 0;
+    padding: 10px 25px 10px 25px;
 }
