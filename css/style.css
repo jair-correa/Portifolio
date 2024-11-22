@@ -205,3 +205,13 @@ h1.black{
     border: 0;
     padding: 10px 25px 10px 25px;
 }
+
+#portfolioTitle{
+    margin-top: 100px;
+}
+.portfolioImg img{
+    width: 100%;
+}
+.portfolioImg{
+    padding: 20px;
+}
