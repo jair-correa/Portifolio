@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: red solid 2px;
+}
 body{
     margin-left: 15%;
     margin-right: 15%;
@@ -7,4 +12,37 @@ body{
     display:grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
+}
+
+#header{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 28px;
+    line-height: 42px;
+    text-decoration: underline;
+    color: #070f18;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#menu li{
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: #070f18;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#menu{
+    text-align: right;
 }
