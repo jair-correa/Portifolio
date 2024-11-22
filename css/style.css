@@ -143,5 +143,12 @@ h1.black{
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
+}
+.textCenter{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    line-height: 30px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
